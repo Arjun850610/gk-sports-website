@@ -33,7 +33,7 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="custom-container !bg-[#171717] !bg-opacity-100 !py-4 shadow-sm shadow-white/20 fixed top-0 left-0 z-[5]">
+      <header className="custom-container !bg-[#000] !bg-opacity-100 !py-4 shadow-sm shadow-white/20 fixed top-0 left-0 z-[5]">
         <div className=" mx-auto flex justify-between items-center">
           <Link to={"/"}>
             <img src={logo} alt="Logo" className="w-auto h-16" />

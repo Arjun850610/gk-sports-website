@@ -5,54 +5,49 @@ import PointsDiv from "../components/common/PointsDiv";
 const RefundAndCancellation = () => {
   const refundCancellationData = [
     {
+      heading: "Cancellation of Tournament Participation",
+      description:
+        "You may cancel your registration for a tournament before the tournament begins and receive a full refund of your entry fee, provided no room ID or password has been provided.",
+    },
+    {
       heading: "Refund Eligibility",
       description:
-        "Refunds are only available under specific conditions, such as service failure or incorrect billing. Please refer to the specific service's terms for details.",
+        "Refunds will only be considered if the tournament is cancelled before it begins or if a technical issue prevents participation after payment has been processed.",
     },
     {
-      heading: "Cancellation Process",
+      heading: "Refund Process",
       description:
-        "To cancel a service, contact support within the specified period. The process for cancellations varies depending on the service and will be handled according to the terms.",
+        "If you are eligible for a refund, it will be credited to your original payment method. Refunds may take 5-7 business days to process depending on your payment provider.",
     },
     {
-      heading: "Refund Method",
+      heading: "Non-Refundable Fees",
       description:
-        "Refunds will be processed via the same payment method used during purchase. The time taken for the refund to reflect in your account depends on the payment processor.",
-    },
-    {
-      heading: "Non-Refundable Items",
-      description:
-        "Certain services, such as digital content or items redeemed with Gold Coins, are non-refundable. Please refer to the service-specific terms for exclusions.",
+        "Certain third-party transaction fees, such as payment processing fees, may not be refundable and will be deducted from the refunded amount.",
     },
     {
       heading: "Late Cancellations",
       description:
-        "Cancellation requests made after the service period or beyond the allowable cancellation window may not be eligible for a refund.",
+        "Once the tournament has started and you have received a room ID and password, no cancellations or refunds will be allowed.",
     },
     {
       heading: "Refund Processing Time",
       description:
-        "Refunds will be processed within 5-10 business days. Delays may occur depending on the payment method and the nature of the refund request.",
+        "Refunds will be processed within 5-7 business days, and refunds may only be granted if cancellation or issues are reported within 48 hours of the tournament start time.",
     },
     {
-      heading: "Partial Refunds",
+      heading: "No Refunds for Prize-Related Issues",
       description:
-        "Partial refunds may be issued for services that have been partially used, as per the refund policy. The calculation will depend on the terms of the service.",
+        "Refunds will not be issued for disputes related to tournament results, prize payouts, or disqualification due to violations of terms and conditions.",
     },
     {
-      heading: "Subscription Cancellation",
+      heading: "How to Request a Refund or Cancellation",
       description:
-        "For subscription-based services, cancellations must be made before the next billing cycle to avoid additional charges. No partial refund is given for unused time.",
+        "You can submit a request for cancellation or refund through the app's 'Help & Support' section or by contacting customer support at gkmsinfotech@gmail.com or 7856070535.",
     },
     {
-      heading: "Refund Disputes",
+      heading: "Modifications to This Policy",
       description:
-        "In case of a dispute regarding a refund, you may contact our support team. We will review your case and provide a resolution based on the applicable policy.",
-    },
-    {
-      heading: "Refund for Promotional Services",
-      description:
-        "Services obtained through promotional offers or discounts may be subject to different refund terms. Please review the promotional terms for specific refund conditions.",
+        "We reserve the right to update or modify this Refund and Cancellation Policy at any time. Changes will be reflected in the app and effective immediately upon posting.",
     },
   ];
 

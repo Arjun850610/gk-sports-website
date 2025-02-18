@@ -7,72 +7,62 @@ const TermsAndConfition = () => {
     {
       heading: "Introduction",
       description:
-        "These Terms and Conditions govern your use of the Gametosa website and app. By using the services, you agree to comply with these terms.",
+        "Thank you for using GK Esports (GKMS INFOTECH LLP), a platform that allows users to participate in Free Fire tournaments for a chance to win prizes. By accessing or using the GK Esports app, you agree to comply with these terms.",
     },
     {
-      heading: "Will These Terms Ever Change?",
+      heading: "User Account",
       description:
-        "We may update the Terms as we improve our services. Changes will be communicated via email or on the website.",
+        "To participate in tournaments, you must create a user account by providing accurate and complete information. You are responsible for keeping your account information up-to-date and secure.",
     },
     {
-      heading: "What About My Privacy?",
+      heading: "Eligibility",
       description:
-        "We take user privacy seriously. Please refer to our Privacy Policy. We do not collect personal data from children under 16.",
+        "You must be at least 18 years old (or the legal age of majority in your jurisdiction) to use this app and participate in tournaments. Participation may also be restricted based on your location or local laws.",
     },
     {
-      heading: "About Tournaments",
+      heading: "Tournament Participation",
       description:
-        "Tournaments are organized by third-party entities and governed by their respective rules. Gametosa does not sponsor individual tournaments.",
+        "You can register for tournaments after paying the entry fee. Upon registration, you will receive a room ID and password to join the tournament. Cheating or unfair conduct will lead to disqualification.",
     },
     {
-      heading: "About Gametosa Promotions",
+      heading: "Payment and Fees",
       description:
-        "Gametosa may sponsor promotions related to tournaments. These promotions will be governed by the respective rules published by Gametosa.",
+        "Entry fees are non-refundable once a tournament has started. Prize payouts will be processed according to the app's payment methods, subject to transaction fees.",
     },
     {
-      heading: "About Prizes",
+      heading: "User Conduct",
       description:
-        "Prizes may be provided according to promotion rules. All winners must be verified by Gametosa. Decisions related to prize administration are final.",
+        "You agree to conduct yourself respectfully during tournaments and avoid behavior that disrupts others. Cheating, harassment, or offensive language may lead to disqualification and account suspension.",
     },
     {
-      heading: "About Gametosa NFTs",
+      heading: "Intellectual Property",
       description:
-        "NFTs can be created and traded on the platform. Terms regarding creation, purchase, and use can be found on the NFT page.",
+        "All intellectual property rights related to the app, including trademarks and logos, are owned by GK Esports. Any content you submit remains your property, but you grant us a license to use it for app operations.",
     },
     {
-      heading: "What are My Rights in Gametosa?",
+      heading: "Privacy",
       description:
-        "Content on the platform is owned by Gametosa or its licensors and is protected by copyright laws.",
+        "We collect personal information for registration and payment processing. Your personal data will be handled according to our Privacy Policy, which is available in the app.",
     },
     {
-      heading: "Will Gametosa Ever Change the Services?",
+      heading: "Disputes and Termination",
       description:
-        "Gametosa reserves the right to modify, suspend, or discontinue any service features at any time.",
+        "Disputes will be resolved informally first, and if needed, according to the laws of your jurisdiction. We reserve the right to suspend or terminate accounts for violation of these terms.",
     },
     {
-      heading: "Does Gametosa Cost Anything?",
+      heading: "Limitation of Liability",
       description:
-        "Some services are free, but we may introduce fees for certain services, processed through third-party payment processors.",
+        "The app is provided on an 'as-is' basis, and we are not responsible for any damages or losses arising from its use. Our liability is limited to the amount paid for participation in the tournament.",
     },
     {
-      heading: "What Are Gold Coins?",
+      heading: "Amendments",
       description:
-        "Gold Coins are purchased and used for item redemption. They are non-transferable and non-refundable except as required by app store policies.",
+        "We reserve the right to update or modify these Terms and Conditions. Any changes will be posted within the app, and continued use constitutes acceptance of the new terms.",
     },
     {
-      heading: "What Are NFTs?",
+      heading: "Contact Information",
       description:
-        "NFTs are non-fungible tokens linked to content like artwork or game images. They can be created and traded on the platform.",
-    },
-    {
-      heading: "Acceptable Website Use",
-      description:
-        "Users cannot violate site security, transmit harmful material, or engage in unlawful conduct. Violations may lead to legal action.",
-    },
-    {
-      heading: "Liability",
-      description:
-        "Gametosa is not liable for damages from using the services. The liability is limited to the amount paid by the user for services.",
+        "For questions about these Terms and Conditions, please contact us at: Email: gkmsinfotech@gmail.com, Phone: 7856070535.",
     },
   ];
 

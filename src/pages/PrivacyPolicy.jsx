@@ -5,54 +5,54 @@ import PointsDiv from "../components/common/PointsDiv";
 const PrivacyPolicy = () => {
   const privacyPolicyData = [
     {
-      heading: "Introduction",
+      heading: "Privacy Policy for GK Esports App",
       description:
-        "This Privacy Policy explains how we collect, use, and protect your personal information when you use the Gametosa platform. By using our services, you agree to the terms outlined in this policy.",
+        "At GK Esports (GKMS INFOTECH LLP), we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains what information we collect, how we use it, and how we protect it when you use our app, GK Esports (GKMS INFOTECH LLP). By accessing or using the App, you consent to the collection and use of your information as described in this Privacy Policy.",
     },
     {
-      heading: "Data Collection",
+      heading: "Information We Collect",
       description:
-        "We collect personal information such as your name, email, and payment details when you use our services. We may also collect usage data to improve our platform.",
+        "We collect personal information such as your name, email address, phone number, date of birth, and payment details when you use the GK Esports app. We may also collect usage data and device information for improving your experience.",
     },
     {
-      heading: "How We Use Your Data",
+      heading: "How We Use Your Information",
       description:
-        "Your data is used to provide, personalize, and improve our services, communicate with you, process payments, and ensure security and compliance with applicable laws.",
+        "We use the information we collect to manage your account, process tournament registrations, send communications, personalize your experience, provide customer support, and ensure compliance with legal requirements.",
     },
     {
-      heading: "Data Sharing",
+      heading: "How We Protect Your Information",
       description:
-        "We do not sell or rent your personal data. We may share your information with trusted third-party service providers who assist us in delivering our services, under strict confidentiality agreements.",
+        "We take reasonable measures to protect your personal data from unauthorized access, alteration, or disclosure. Payment information is processed securely through third-party providers using encryption protocols.",
     },
     {
-      heading: "Cookies and Tracking Technologies",
+      heading: "Sharing Your Information",
       description:
-        "We use cookies and other tracking technologies to enhance your experience on our platform, track user behavior, and deliver personalized content. You can manage cookie settings through your browser.",
+        "We may share your information with third-party service providers who help us operate the app, process payments, or provide customer support. We may also share your information if required by law or during a business transfer.",
     },
     {
-      heading: "Data Security",
+      heading: "Your Rights and Choices",
       description:
-        "We take data security seriously and implement industry-standard measures to protect your information. However, no method of transmission over the internet is 100% secure.",
+        "You can access, update, or delete your personal information at any time through the app. You can also opt-out of marketing communications or adjust your cookie settings.",
     },
     {
-      heading: "Data Retention",
+      heading: "International Data Transfers",
       description:
-        "We retain your personal data for as long as necessary to provide services or as required by law. You can request the deletion of your data in accordance with our policy.",
+        "Your information may be transferred to and processed in countries with different data protection laws than your own. By using the app, you consent to this transfer.",
     },
     {
       heading: "Children's Privacy",
       description:
-        "Our services are not intended for children under 16. We do not knowingly collect personal data from children. If we become aware of such data collection, we will delete it immediately.",
-    },
-    {
-      heading: "Your Rights",
-      description:
-        "You have the right to access, correct, or delete your personal data. You can also opt out of marketing communications and manage your preferences through your account settings.",
+        "The GK Esports app is not intended for children under 18. We do not knowingly collect personal information from children. If we become aware of such information, we will delete it as quickly as possible.",
     },
     {
       heading: "Changes to This Privacy Policy",
       description:
-        "We may update this Privacy Policy to reflect changes in our practices or services. Any updates will be posted on this page, and the date of the last update will be indicated at the bottom of the policy.",
+        "We may update this Privacy Policy from time to time. Any changes will be communicated through the app, and continued use signifies acceptance of the updated policy.",
+    },
+    {
+      heading: "Contact Us",
+      description:
+        "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at gkmsinfotech@gmail.com or call us at 7856070535.",
     },
   ];
 
@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
 
   return (
     <main className="custom-container !pt-28 lg:pt-32 flex flex-col gap-5 lg:gap-8">
-      <Heading Heading={"Terms & Conditions"} />
+      <Heading Heading={"Privacy Policy"} />
       <div className="flex flex-col gap-6">
         {privacyPolicyData?.map((item, index) => (
           <PointsDiv data={item} key={index} />

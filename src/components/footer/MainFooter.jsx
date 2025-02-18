@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const MainFooter = () => {
-  const [date, setdate] = useState(new Date())
+  const [date, setdate] = useState(new Date());
   const policies = [
     { text: "Terms & Conditions", link: "/terms" },
     { text: "Privacy Policy", link: "/privacy-policy" },
@@ -38,12 +38,12 @@ const MainFooter = () => {
       <div className="custom-container !bg-black border-t-2 border-primary !pt-10 !pb-0">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="md:max-w-xl mb-6 md:mb-0 flex flex-col gap-4">
-            <img src={logo} alt="Logo" className="w-20 h-20 " />
+            <img src={logo} alt="Logo" className="w-20 h-24 " />
 
             <p className="text-sm lg:text-base max-w-[70%]">
-              Gametosa is India's #1 mobile Esports hosting and gaming platform,
-              offering a wide range of online tournaments, live gaming events,
-              and an engaging community for gamers.
+              GK-ESPORTS is India's leading mobile Esports hosting and gaming
+              platform, providing an extensive selection of online tournaments,
+              live gaming events, and a vibrant community for gamers.
             </p>
           </div>
           <div className="lg:w-1/3 w-full mb-6 md:mb-0">
@@ -79,7 +79,7 @@ const MainFooter = () => {
         <div className="mt-8 pt-4 border-t border-gray-700 text-center text-sm">
           <p>&copy; {date.getFullYear()} GK-ESPORTS | All rights reserved.</p>
           <p className="mt-4">
-            GK sports & Gaming is not endorsed by any game publishe
+            GK-ESPORTS & Gaming is not endorsed by any game publishe
           </p>
         </div>
       </div>

@@ -21,10 +21,9 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-start mt-2">
-          Get started with us today. Grow in an Esports ecosystem with gamers &
-          organizers alike. Get started with us today. Grow in an Esports
-          ecosystem with gamers & organizers alike. Get started with us today.
-          Grow in an Esports ecosystem with gamers & organizers alike.
+          Get started with GK-ESPORTS today. Grow within an Esports ecosystem
+          alongside gamers and organizers alike. Join GK-ESPORTS now and be part
+          of the thriving Esports community.
         </p>
 
         {/* GST Refund Highlight */}
@@ -34,6 +33,9 @@ const HeroSection = () => {
           </p>
           <p className="text-lg font-semibold">Everyday</p>
         </div>
+        <a href="/app-release.apk" className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-md w-fit text-sm font-semibold text-nowrap hover:bg-primary transition-all ease-in-out duration-300">
+          <FaAndroid className="text-xl text-green-600" /> DOWNLOAD on Android
+        </a>
       </div>
     </section>
   );
